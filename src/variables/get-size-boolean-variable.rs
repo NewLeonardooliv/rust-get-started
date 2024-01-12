@@ -1,5 +1,5 @@
 fn get_boolean_variable() -> usize {
-    let boolean_variable = true;
+    let boolean_variable:bool = true;
 
     return std::mem::size_of_val(&boolean_variable);
 }
