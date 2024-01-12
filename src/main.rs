@@ -1,3 +1,4 @@
 fn main() {
-    println!("Hello, world!");
+    let variable: u8 = 128;
+    println!("{}", variable);
 }
