@@ -1,15 +1,13 @@
 fn ownership() {
     let name = String::from("Leonardo");
 
-    let other_name = steal(name);
+    steal(&name);
 
-    println!("{}", other_name);
+    println!("{}", name);
 }
 
-fn steal(string: String) -> String {
+fn steal(string: &String) {
     println!("{}", string);
-
-    string
 }
 
 fn main() {
