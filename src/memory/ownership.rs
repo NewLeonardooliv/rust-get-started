@@ -1,4 +1,4 @@
-fn ownsership() {
+fn ownership() {
     let name = String::from("Leonardo");
 
     let other_name = steal(name);
@@ -13,5 +13,5 @@ fn steal(string: String) -> String {
 }
 
 fn main() {
-    ownsership()
+    ownership()
 }
